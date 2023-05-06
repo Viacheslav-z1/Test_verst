@@ -1,0 +1,78 @@
+.comments_face *{font-family:'Roboto',sans-serif!important}.comments_face{background-color:#fff;font-size:14px}.comments_face .comments{background-color:#eeeff4;border-bottom:2px solid #fff;padding:10px}
+.comments_face .profile{float:left;width:60px;margin-right:10px}.comments_face .comment-content img,.comments_face .profile img{width:100%}.comments_face .comment-content img,.comments_face .profile img,.comment-status img{margin:0 auto}
+.comments_face .comment-content{padding-left:70px}.comments_face .name{margin:0}.comments_face .comment-status span,.comments_face .name{color:#3b5998}
+.comments_face .name,.comments_face .result{font-weight:700}.comments_face .button,.comments_face .name,.comments_face .profile{cursor:pointer}.comments_face .comment-status{font-size:11px;cursor:pointer}
+.comments_face .comment-status span,.comments_face .name{color:#3b5998}.comments_face .button,.comments_face .main-content span{color:red}.comments_face .clr{clear:both}
+.comment-btn{
+  border: none;
+  background-color: transparent;
+  border-radius: 5px;
+  color: #fff;
+  padding: 6px;
+  background-color: #ed9220;
+
+}
+
+
+.comments-form {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 250, 243, 0.89);
+  transform: translateY(-200%);
+  transition: all .5s;
+}
+.comments-form.open{
+  transform: translate(0);
+}
+.container {
+}
+.comments-form-title {
+}
+
+.comments-form__inner{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.comments-form-textarea{
+  resize: none;
+  height: 100px;
+  max-width: 400px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.coments-post{
+  background-color: #e6c301;
+  border: none;
+  padding: 15px;
+  color: #fffdfd;
+  border-radius: 5px;
+}
+
+.comments-close-form{
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+}
+.comment-btn{
+
+
+}
+.comments_face{
+  margin-top: 20px;
+}
+
+.comments{
+  margin-bottom: 20px;
+}
